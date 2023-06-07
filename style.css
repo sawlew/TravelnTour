@@ -399,9 +399,7 @@ footer{
     padding-top: 50px;
     margin-bottom: 50px;
 }
-.branch{
-    /* border: 1px solid green; */
-}
+
 .branch h1{
     font-size: 19px;
     font-weight: 700;
@@ -436,10 +434,13 @@ hr{
     border: 0.1px solid #C4C4C4;
 }
 .social{
-    /* border: 1px solid red; */
     width: 250px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 30px auto;
+}
+.social a img:hover{
+    transition: ease 0.5s;
+    transform: scale(2);
 }
