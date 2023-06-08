@@ -69,6 +69,7 @@ button{
     height: 44px;
     border-radius: 8px;
     border: 1px solid #FB8F1D;
+    cursor: pointer;
 }
 
 .login{
@@ -132,6 +133,24 @@ select{
     border-radius: 6px;
     padding: 0 20px;
     border: 0.8px solid #AFB0B9;
+
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+    appearance:none;
+}
+
+.drop{
+    position: relative;
+}
+.down1, .down2{
+    position: absolute;
+    top: 25%;
+}
+.down1{
+    right: 60%;
+}
+.down2{
+    right: 10%;
 }
 
 .drop1{
@@ -216,29 +235,14 @@ select{
 .photo{
     width: 260px;
     height: 330px;
-    /* border: 1px solid red; */
     border-radius: 8px;
     position: relative;
-    
-    transform-origin: 50% 50%;
     cursor: pointer;
     overflow: hidden;
 }
-.photo:hover{
+.gallery:hover{
     transition: transform 0.4s ease;
     transform: scale(1.05);
-}
-.photo1{
-    background-image: url('images/image\ 4.png');
-}
-.photo2{
-    background-image: url('images/imgi.png');
-}
-.photo3{
-    background-image: url('images/img.png');
-}
-.photo4{
-    background-image: url('images/imhf.png');
 }
 
 .plate{
