@@ -133,10 +133,15 @@ select{
     border-radius: 6px;
     padding: 0 20px;
     border: 0.8px solid #AFB0B9;
-
     -moz-appearance:none; /* Firefox */
     -webkit-appearance:none; /* Safari and Chrome */
     appearance:none;
+    position: relative;
+    background: rgba(255, 255, 255, 0);
+    color: black;
+}
+option{
+    color: black;
 }
 
 .drop{
@@ -160,7 +165,7 @@ select{
     margin-bottom: 40px;
 }
 
-#activity{
+#activity, #date{
     margin-left: 30px;
 }
 
